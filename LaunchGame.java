@@ -125,7 +125,8 @@ abstract class Player
 		if(row >= 0 && row <= 2
 		   && col >= 0 && col <= 2)
 		{
-			if(TicTacToe.board[row][col] == ' ')				{
+			if(TicTacToe.board[row][col] == ' ')				
+			{
 				return true;
 			}
 		}
